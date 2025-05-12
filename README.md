@@ -172,6 +172,34 @@ npm run dev
 npm run build
 ```
 
+### Testing
+
+The project includes comprehensive test coverage using Jest:
+
+```
+# Run all tests
+npm test
+
+# Run tests in watch mode
+npm run test:watch
+
+# Generate test coverage report
+npm run test:coverage
+```
+
+Test coverage includes:
+- Unit tests for validators
+- Unit tests for service layer
+- Unit tests for controllers
+- Integration tests for API endpoints
+
+The test suite validates all key features including:
+- Hierarchy creation and management
+- Validation rules enforcement
+- Parent-child relationship constraints
+- Number uniqueness validation
+- Error handling
+
 ## Architecture
 
 The project follows a layered architecture:
